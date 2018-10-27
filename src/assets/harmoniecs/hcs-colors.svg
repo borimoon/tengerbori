@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="699px" height="131px" viewBox="0 0 699 131" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="case-study" transform="translate(-350.000000, -7218.000000)">
+            <g id="Group-10" transform="translate(350.000000, 7218.000000)">
+                <g id="Group-7">
+                    <circle id="Oval-2" fill="#F11F96" cx="664" cy="43" r="9"></circle>
+                    <circle id="Oval-2-Copy" fill="#9B9B9B" cx="350.5" cy="42.5" r="35.5"></circle>
+                    <circle id="Oval-2-Copy-2" fill="#070707" cx="42.5" cy="42.5" r="42.5"></circle>
+                    <text id="#070707" font-family="Montserrat-Light, Montserrat" font-size="19" font-weight="300" fill="#070707">
+                        <tspan x="0" y="130">#070707</tspan>
+                    </text>
+                    <text id="#9B9B9B" font-family="Montserrat-Light, Montserrat" font-size="19" font-weight="300" fill="#070707">
+                        <tspan x="306" y="130">#9B9B9B</tspan>
+                    </text>
+                    <text id="#F11F96" font-family="Montserrat-Light, Montserrat" font-size="19" font-weight="300" fill="#070707">
+                        <tspan x="627" y="130">#F11F96</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
