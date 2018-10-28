@@ -2,7 +2,7 @@
   <div>
     <transition name="fade" appear>
       <ul class="work-nav">
-        <router-link to="/" tag="li"><a>Home</a></router-link>
+        <router-link to="/" tag="li"><a class="back-home"><span></span></a></router-link>
         <router-link to="/the-new-harmony" tag="li" active-class="active"><a>Harmonie</a></router-link>
         <router-link to="/mindful-minimalism" tag="li" active-class="active"><a>Mi</a></router-link>
       </ul>

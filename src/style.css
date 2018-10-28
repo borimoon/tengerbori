@@ -134,15 +134,15 @@ q::after {
   width: 70px;
 }
 
-.small-shape {
+.small-shape svg {
+  bottom: 0;
   position: absolute;
-  right: 10%;
-  top: 25%;
+  right: 0;
   -webkit-transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -o-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
-  width: 25%;
+  width: 10%;
   z-index: 999;
 }
 
@@ -274,12 +274,13 @@ q::after {
 
 /* WORK */
 /* nav */
+
 .work-nav {
   background-color: #fff;
   display: -webkit-flex;
   display: flex;
-  right: 0;
-  margin: .7em;
+  left: 50%;
+  margin: .7em .7em .7em -84px;
   position: fixed;
   top: 0;
   z-index: 99;
@@ -298,6 +299,55 @@ q::after {
   -moz-transition: color .5s ease-in-out;
   -o-transition: color .5s ease-in-out;
   transition: color .5s ease-in-out;
+}
+
+.work-nav li .back-home {
+  border: 0;
+  padding: 0;
+}
+
+.back-home {
+  display: block;
+  height: 36px;
+  position: absolute;
+  left: 110%;
+  top: 0;
+  width: 36px;
+}
+
+.back-home span {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.back-home span::before,
+.back-home span::after {
+  background-color: #171717;
+  content: '';
+  display: block;
+  height: 3px;
+  position: absolute;
+  right: 0;
+  width: 40px;
+}
+
+.back-home span::before {
+  top: 1px;
+  -webkit-transform: translateY(14px) rotateZ(45deg);
+  -moz-transform: translateY(14px) rotateZ(45deg);
+  -ms-transform: translateY(14px) rotateZ(45deg);
+  -o-transform: translateY(14px) rotateZ(45deg);
+  transform: translateY(14px) rotateZ(45deg);
+}
+
+.back-home span::after {
+  top: 29px;
+  -webkit-transform: translateY(-14px) rotateZ(-45deg);
+  -moz-transform: translateY(-14px) rotateZ(-45deg);
+  -ms-transform: translateY(-14px) rotateZ(-45deg);
+  -o-transform: translateY(-14px) rotateZ(-45deg);
+  transform: translateY(-14px) rotateZ(-45deg);
 }
 
 .work-nav li.active > a,
@@ -376,7 +426,7 @@ q::after {
     fill: url(#image2);
   }
 
-  .small-shape {
+  .small-shape svg {
     width: 12%;
   }
 
@@ -398,6 +448,16 @@ q::after {
     align-items: flex-end;
     -webkit-flex-direction: column;
     flex-direction: column;
+    margin: .7em;
+    left: inherit;
+    right: 0;
+    top: 1.7em;
+  }
+
+  .back-home {
+    left: inherit;
+    margin-bottom: 1em;
+    position: relative;
   }
 }
 
@@ -435,11 +495,6 @@ q::after {
     left: 2.2em;
     top: 2em;
     width: 170px;
-  }
-
-  .small-shape:hover {
-    right: 8%;
-    top: 27%;
   }
 
   .work-nav li a:hover {
