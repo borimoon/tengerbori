@@ -1,15 +1,17 @@
 <template>
-  <section class="links row">
-    <ul class="social-links col-xs-12 col-sm-4 col-sm-offset-4 col-md-2 col-md-offset-5">
+  <section class="links">
+    <ul class="social-links">
       <li :class="socialLink.class" class="image" v-for="socialLink in socialLinks">
         <a :href="socialLink.url" target="blank">
           <img :src="socialLink.src" :alt="socialLink.alt" width="50" height="50">
         </a>
       </li>
-      <span class="divider"></span>
+      <li class="divider">
+        <span></span>
+      </li>
     </ul>
 
-    <p class="cv col-xs-12 col-sm-4">
+    <p class="cv">
       <a class="link link-cv" href="src/assets/cv.pdf" target="blank">download cv</a>
     </p>
   </section>

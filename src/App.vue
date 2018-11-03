@@ -1,5 +1,5 @@
 <template>
-  <div id="container" class="frame container-fluid">
+  <div id="container" class="container">
     <transition name="fade" appear>
       <router-view class="header-home" name="header-home"></router-view>
     </transition>

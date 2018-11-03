@@ -1,8 +1,8 @@
 <template>
-  <section class="work row">
-    <h1 class="main-heading col-xs-12 col-sm-4 col-sm-offset-4 col-md-2 col-md-offset-5">{{ title }}</h1>
+  <section class="work">
+    <h1 class="main-heading">{{ title }}</h1>
 
-    <ul class="col-xs-12 col-sm-4">
+    <ul class="work-list">
       <router-link
         :key="myWork.name"
         tag="li"
@@ -14,7 +14,7 @@
             <p class="side-text">{{ myWork.desc }}</p>
 
             <div class="hide-text">
-              <p class="read-more side-text"><small>Read case study</small></p>
+              <p class="read-more"><small class="smaller">Read case study</small></p>
             </div>
           </a>
       </router-link>

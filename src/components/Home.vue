@@ -18,17 +18,19 @@
     </div>
 
     <div class="home-content">
-      <transition name="slide" mode="out-in" appear>
-        <my-about></my-about>
-      </transition>
+      <div class="content-parts">
+        <transition name="slide" mode="out-in" appear>
+          <my-about></my-about>
+        </transition>
 
-      <transition name="slide" mode="out-in" appear>
-        <my-work></my-work>
-      </transition>
+        <transition name="slide" mode="out-in" appear>
+          <my-work></my-work>
+        </transition>
 
-      <transition name="slide" mode="out-in" appear>
-        <my-links></my-links>
-      </transition>
+        <transition name="slide" mode="out-in" appear>
+          <my-links></my-links>
+        </transition>
+      </div>
 
       <my-footer></my-footer>
     </div>
