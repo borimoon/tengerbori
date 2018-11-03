@@ -1,6 +1,6 @@
 <template>
   <section class="work">
-    <h1 class="main-heading">{{ title }}</h1>
+    <h1 class="main-heading main-heading-home">{{ title }}</h1>
 
     <ul class="work-list">
       <router-link

@@ -1,12 +1,10 @@
 <template>
-  <article class="row">
-    <section class="work-intro">
-      <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
-        <h1 class="main-heading main-heading-work">Mindful Minimalism</h1>
-        <h2 class="subheading subheading-work">Website design for Mi Műhely Architect Studio</h2>
-      </div>
+  <article class="article">
+    <div class="text-content">
+      <h1 class="main-heading main-heading-work">Mindful Minimalism</h1>
+      <h2 class="subheading subheading-work">Website design for Mi Műhely Architect Studio</h2>
 
-      <ul class="text side side-text col-xs-12 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+      <ul class="text side side-text">
         <li><strong>Client: </strong>Mi Műhely Architecture and Design</li>
         <li><strong>Project: </strong>UX, UI design and web development</li>
         <li><strong>Project URL: </strong>http://www.mimuhely.hu</li>
@@ -15,10 +13,8 @@
         <li><strong>Team member: </strong>Daniel Tasko</li>
         <li><strong>My role: </strong>UI design, front-end development</li>
       </ul>
-    </section>
 
-    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
-      <p class="text">
+      <p>
         Mi Műhely is an architecture and design studio based in Dunakeszi Hungary. The studio is founded and owned by two young and talented architects, András Nagy and Kornél Gáhy. They are both passionate in minimalist forms, noble materials and the people they design for.
       </p>
 
@@ -28,7 +24,7 @@
         András and Kornél contacted me to design and develop a website for them in November 2017. They needed a portfolio, where they can present their work and a blog for publishing their thoughts.
       </p>
 
-      <p class="text">
+      <p>
         Working with our clients was very easy because they like as much thinking and experimenting with several ideas as we do. The everyday communications went via email, which we used for keeping track of progress and getting quick questions and answers regarding the process. For design presentations and discussing the main topics we always met in person.
       </p>
 
@@ -42,24 +38,22 @@
         At this point we knew, we must just follow this clean, functionality-first methodology by designing the Home page's starting game.
       </p>
 
-      <p class="text">
+      <p>
         After the survey we did visual research to see what kind of portfolios similar architect studios have, and after we had discussed and exchanged ideas with the Mi-team, decided the main directions of the portfolio design: keep it clean and simple by using the good old gallery grid, and show the project images as big as possible.
       </p>
 
       <h3 class="heading-text">Interface Design</h3>
-      <h4 class="subheading-text">Wireframe</h4>
-      <p class="text">
+      <h4>Wireframe</h4>
+      <p>
         The first sketches focused on sectioning the future content and the main menu. We created the wireframe of a landing page which guides the users through the page, and answers their questions about who is Mi Műhely, and what can they hire them for.
       </p>
     </div>
 
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-      <div class="image image-article">
-        <img src="src/assets/mics/mcs-1.jpg" alt="wireframes">
-      </div>
+    <div class="image image-article">
+      <img src="src/assets/mics/mcs-1.jpg" alt="wireframes">
     </div>
 
-    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+    <div class="text-content">
       <h4 class="subheading-text">The Game</h4>
 
       <p class="text">
@@ -80,59 +74,53 @@
         </li>
       </ul>
 
-      <p class="text">
+      <p>
         Our clients were quite happy with the third idea, which was our favourite as well because it represents a place where we can create something together. As it seemed we still miss some parts, we decided to think it even further. An old Chinese game, called the Tangram came to help us. This is a transformation puzzle made up of seven flat pieces, which are put together to form different shapes. The game aims to create a specific shape using all seven parts, which may not overlap. At that point, we just had to decide, what kind of shapes we use and what shape they define altogether by default.
         Meanwhile we created the final version of the studio's logo, on which we worked parallel with the game's appearance. We sliced the logo into nine pieces, shuffled them on the landing screen, and gave it to our clients to try. They loved it.
       </p>
 
-      <div class="image image-article">
+      <div class="image image-article-inner">
         <img src="src/assets/mics/mcs-tangram.png" alt="tangram from the logo">
       </div>
 
       <h4 class="subheading-text">The first layouts</h4>
 
-      <p class="text">
+      <p>
         We created three different versions of the Home page to show our ideas, then discussed it with the Mi-team to get feedback. Our concept was to display their creative process along a timeline.
       </p>
     </div>
 
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-      <div class="image image-article">
-        <img src="src/assets/mics/mcs-2.jpg" alt="The first layouts">
-      </div>
+    <div class="image image-article">
+      <img src="src/assets/mics/mcs-2.jpg" alt="The first layouts">
     </div>
 
-    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+    <div class="text-content">
       <h4 class="subheading-text">Refining the UI</h4>
 
-      <p class="text">
+      <p>
         They voted for the straight timeline and plain background with the blue shapes, and we started to build the whole layout using the thick grey line as a leading design element of the forms and image frames.
       </p>
     </div>
 
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-      <div class="image image-article">
-        <img src="src/assets/mics/mcs-3.jpg" alt="detailed UI screens">
-      </div>
+    <div class="image image-article">
+      <img src="src/assets/mics/mcs-3.jpg" alt="detailed UI screens">
     </div>
 
-    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
-      <div class="image image-article">
+    <div class="text-content">
+      <div class="image image-article-inner">
         <img src="src/assets/mics/mcs-colors.svg" alt="used colors">
       </div>
 
       <h4 class="subheading-text">Logo</h4>
 
-      <p class="text">
+      <p>
         András and Kornél imagined their logo as it represents openness and space emphatically containing the word "Mi". First, we designed three different versions of the logo. We operated with the contrast of light tone shapes and darker, thin lines. The result was nearly good, but they seemed to want something simpler and stronger. Therefore we came up with the fourth version, which all of us loved the most.
       </p>
 
       <div class="image image-article">
         <img src="src/assets/mics/mcs-logo.svg" alt="logo">
       </div>
-    </div>
 
-    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
       <h3 class="heading-text">A Few Technical Details</h3>
       <p class="text">
         Moving the game's elements
@@ -146,11 +134,11 @@
         Instead of the parent element I marked the "body" as restriction area. As a result, I could move the shapes to every part of the Home page. Then I switched endOnly to "true", after that the dragged shape got stuck when the closest side met the edge of the screen. Then I only needed to add a "draggable" class to every item I wanted to move.
       </p>
 
-      <p class="text">
+      <p>
         During the development process, we had an idea to make it possible to add more draggable items to the shapes of the tangram. Therefore I marked the shapes of the introduction section also draggable, which could be shuffled with the tangram's elements, giving more chance the user to build something pleasing.
       </p>
 
-      <div class="image image-article">
+      <div class="image image-article-inner">
         <img src="src/assets/mics/mcs-4.jpg" alt="">
       </div>
 
@@ -174,7 +162,7 @@
       </p>
 
       <h3 class="heading-text">Takeaways</h3>
-      <p class="text">
+      <p>
         Designing this website has been a challenging and rewarding journey. I have learned a lot during the project.
         In the future, we are going to add at least two more features to the website.
         The first is a filter to a gallery.
