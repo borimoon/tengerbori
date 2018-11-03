@@ -149,24 +149,16 @@
         </q>
       </p>
 
-      <p class="text quote">
+      <p class="quote">
         <q>
           The game is thumbs up! Our clients love playing with it, (so we as well). The "Build!" slogan is awsome, we bought it!
-        </q>
-      </p>
-
-      <p class="text quote">
-        <q>
-          Amit külön kiemelnék, azok a hangsúlyok. Nagyon jó a szöveghangsúlyokból adódó vezetése az oldalnak.
         </q>
       </p>
 
       <h3 class="heading-text">Takeaways</h3>
       <p>
         Designing this website has been a challenging and rewarding journey. I have learned a lot during the project.
-        In the future, we are going to add at least two more features to the website.
-        The first is a filter to a gallery.
-        The second is…
+        In the future, we are going to add a couple of new features to the website including a filter to a gallery, to sort the projects by their category.
       </p>
     </div>
   </article>
