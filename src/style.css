@@ -90,6 +90,10 @@ q::after {
 }
 
 /*--- L A Y O U T  S T Y L E S ---*/
+.container {
+  position: relative;
+}
+
 .corner {
   left: 0;
   position: absolute;
@@ -371,7 +375,7 @@ q::after {
 
 /* work content */
 .main-heading-work {
-  margin-top: 40%;
+  padding-top: 40%;
 }
 
 .heading-text {

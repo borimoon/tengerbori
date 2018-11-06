@@ -1,5 +1,5 @@
 <template>
-  <section class="case-studies">
+  <div>
     <transition name="fade" appear>
       <ul class="work-nav">
         <router-link to="/" tag="li"><a class="back-home"><span></span></a></router-link>
@@ -16,7 +16,7 @@
       <router-view></router-view>
     </transition>
     <router-view name="footer"></router-view>
-  </section>
+  </div>
 </template>
 
 <style>
