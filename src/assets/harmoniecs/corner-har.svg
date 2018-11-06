@@ -17,7 +17,7 @@
         <use xlink:href="#c"/>
       </mask>
       <use fill="url(#d)" xlink:href="#c"/>
-      <g mask="url(#e)" stroke-width="2" stroke="#FFF">
+      <g mask="url(#e)" stroke-width="12" stroke="#FFF">
         <path d="M239.733 504.767L66 121h347.467z"/>
         <path d="M-205 249.501c48.862 63.082 125.313 103.743 211.302 103.743 147.533 0 267.13-119.537 267.13-266.996C273.432 9.154 240.7-60.265 188.42-109"/>
       </g>

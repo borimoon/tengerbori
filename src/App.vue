@@ -1,10 +1,6 @@
 <template>
   <div id="container" class="container">
     <transition name="fade">
-      <router-view name="corner"></router-view>
-    </transition>
-
-    <transition name="fade">
       <router-view></router-view>
     </transition>
   </div>

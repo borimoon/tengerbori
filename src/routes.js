@@ -1,5 +1,4 @@
 import Home from './components/Home.vue';
-import Corner from './components/Corner.vue';
 import Footer from './components/Footer.vue';
 
 const Works = resolve => {
@@ -36,10 +35,7 @@ export const routes = [
   {
     path: '',
     name: 'home',
-    components: {
-      default: Home,
-      'corner': Corner
-    }
+    component: Home
   },
 
   {
