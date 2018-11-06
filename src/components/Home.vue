@@ -1,5 +1,9 @@
 <template>
   <section class="home">
+    <div class="image corner">
+      <img src="src/assets/corner.svg" alt="Home illustration">
+    </div>
+
     <svg class="logo" viewBox="0 0 258 121" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
       <g fill="#5ea">
         <path d="M80.084 84.265h43.805v36.704H0V84.286h43.682V0h36.402v84.265z"/>
@@ -8,7 +12,7 @@
       </g>
     </svg>
 
-    <div class="small-shape">
+    <div class="corner-bottom">
       <svg viewBox="0 0 236 241" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
         <g fill="#5EE">
           <path d="M235.102 240.924V0L0 240.924z" fill-rule="evenodd" fill-opacity=".22"/>

@@ -1,10 +1,6 @@
 <template>
-  <div id="container" class="container">
-    <transition name="fade" appear>
-      <router-view class="header-home" name="header-home"></router-view>
-    </transition>
-
-    <transition name="fade" appear>
+  <div class="container">
+    <transition name="fade">
       <router-view></router-view>
     </transition>
   </div>

@@ -1,5 +1,4 @@
 import Home from './components/Home.vue';
-import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
 
 const Works = resolve => {
@@ -20,14 +19,23 @@ const WorkTwo = resolve => {
   }, 'work');
 };
 
+const CornerOne = resolve => {
+  require.ensure(['./components/work/CornerOne.vue'], () => {
+    resolve(require('./components/work/CornerOne.vue'));
+  }, 'corner');
+};
+
+const CornerTwo = resolve => {
+  require.ensure(['./components/work/CornerTwo.vue'], () => {
+    resolve(require('./components/work/CornerTwo.vue'));
+  }, 'corner');
+};
+
 export const routes = [
   {
     path: '',
     name: 'home',
-    components: {
-      default: Home,
-      'header-home': Header
-    }
+    component: Home
   },
 
   {
@@ -41,7 +49,7 @@ export const routes = [
         path: '/the-new-harmony',
         components: {
           default: WorkOne,
-          'header-one': Header,
+          'corner': CornerOne,
           'footer': Footer
         }
       },
@@ -50,7 +58,7 @@ export const routes = [
         path: '/mindful-minimalism',
         components: {
           default: WorkTwo,
-          'header-two': Header,
+          'corner': CornerTwo,
           'footer': Footer
         }
       }

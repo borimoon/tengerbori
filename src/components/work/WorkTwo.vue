@@ -21,7 +21,7 @@
       <h3 class="heading-text">Overview</h3>
 
       <p class="text">
-        András and Kornél contacted me to design and develop a website for them in November 2017. They needed a portfolio, where they can present their work and a blog for publishing their thoughts.
+        András and Kornél contacted us to design and develop a website for them in November 2017. They needed a portfolio, where they can present their work and a blog for publishing their thoughts.
       </p>
 
       <p>
@@ -149,9 +149,15 @@
         </q>
       </p>
 
+      <p class="text quote">
+        <q>
+          The game is thumbs up! Our clients love playing with it, (so do we).
+        </q>
+      </p>
+
       <p class="quote">
         <q>
-          The game is thumbs up! Our clients love playing with it, (so we as well). The "Build!" slogan is awsome, we bought it!
+          The "Build!" slogan is awsome, we bought it!
         </q>
       </p>
 

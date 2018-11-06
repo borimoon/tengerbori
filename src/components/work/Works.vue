@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section class="case-studies">
     <transition name="fade" appear>
       <ul class="work-nav">
         <router-link to="/" tag="li"><a class="back-home"><span></span></a></router-link>
@@ -8,19 +8,15 @@
       </ul>
     </transition>
 
-    <transition name="fade" appear>
-      <router-view class="header-one" name="header-one"></router-view>
-    </transition>
-
-    <transition name="fade" appear>
-      <router-view class="header-two" name="header-two"></router-view>
+    <transition name="fade">
+      <router-view name="corner"></router-view>
     </transition>
 
     <transition name="slide" mode="out-in" appear>
       <router-view></router-view>
     </transition>
     <router-view name="footer"></router-view>
-  </div>
+  </section>
 </template>
 
 <style>
