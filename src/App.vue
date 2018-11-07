@@ -1,6 +1,6 @@
 <template>
   <div id="container" class="container">
-    <transition name="fade">
+    <transition name="fade" appear>
       <router-view></router-view>
     </transition>
   </div>
