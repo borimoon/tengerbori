@@ -3,11 +3,14 @@
     <div class="image corner">
       <img src="src/assets/corner.svg" alt="corner illustration of the home-page">
     </div>
-    
-    <svg class="logo" viewBox="0 0 258 121" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
-      <g fill="#5ea">
-        <path d="M80.084 84.265h43.805v36.704H0V84.286h43.682V0h36.402v84.265z"/>
-        <path d="M257.675 0v120.969H132.233V36.683h-.041v-.01H88.494V0h46.259l-.28.28 16.242 13.023L166.676.28l-.28-.28h91.279zm-36.683 36.683h-52.076v47.603h52.076V36.683z"/>
+
+    <svg class="logo" viewBox="0 0 310 310" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+      <path fill="none" d="M0 0h310v310H0z"/>
+      <clipPath id="a">
+        <path d="M0 0h310v310H0z"/>
+      </clipPath>
+      <g clip-path="url(#a)" fill="#5ee">
+        <path d="M52.169 262.871H-4.079V310H155v-47.102H98.911V154.671H52.169v108.2zM155.089 217.235h155.328V56.163H202.191v-.053h-.013V0h-47.089v217.235zm47.102-47.102v-66.868h61.124v66.868h-61.124z"/>
         <animate attributeName="fill" values="#5ea;#5ee;#5ea;" dur="5s" repeatCount="indefinite" />
       </g>
     </svg>

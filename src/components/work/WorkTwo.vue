@@ -163,7 +163,8 @@
 
       <h3 class="heading-text">Takeaways</h3>
       <p>
-        Designing this website has been a challenging and rewarding journey. I have learned a lot during the project.
+        Designing this website has been a challenging and rewarding journey.
+        The interactive game feature is being very well-received by clients of the Mi műhely. Mi műhely also organised a little competition for them. As a result, they received lots of wonderful artworks made of the shapes of their logo.
         In the future, we are going to add a couple of new features to the website including a filter to a gallery, to sort the projects by their category.
       </p>
     </div>
