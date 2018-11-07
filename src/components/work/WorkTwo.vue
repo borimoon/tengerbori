@@ -108,7 +108,7 @@
 
     <div class="text-content">
       <div class="image image-article-inner">
-        <img src="src/assets/mics/mcs-colors.svg" alt="used colors">
+        <img src="src/assets/mics/mcs-colors.svg" alt="used colours">
       </div>
 
       <h4 class="subheading-text">Logo</h4>
