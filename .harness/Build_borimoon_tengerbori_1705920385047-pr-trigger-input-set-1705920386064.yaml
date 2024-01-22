@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_borimoon_tengerbori_1705920385047-pr-trigger-input-set
+  identifier: Build_borimoon_tengerbori_1705920385047prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Test
+  pipeline:
+    identifier: Build_borimoon_tengerbori_1705920385047
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
