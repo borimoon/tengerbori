@@ -1,0 +1,33 @@
+pipeline:
+  identifier: Build_borimoon_tengerbori_1705920385047
+  name: Build tengerbori
+  orgIdentifier: default
+  projectIdentifier: Test
+  properties:
+    ci:
+      codebase:
+        build: <+input>
+        connectorRef: account.Github_OAuth_1705920313119
+        repoName: borimoon/tengerbori
+  stages:
+    - stage:
+        identifier: build
+        name: build
+        spec:
+          cloneCodebase: true
+          execution:
+            steps:
+              - step:
+                  identifier: npminstall
+                  name: npm_install
+                  spec:
+                    command: npm install
+                  timeout: ""
+                  type: Run
+          platform:
+            arch: Amd64
+            os: Linux
+          runtime:
+            spec: {}
+            type: Cloud
+        type: CI
